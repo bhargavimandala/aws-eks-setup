@@ -1,0 +1,6 @@
+public_secondary_cidr = "100.0.128.0/18,100.0.192.0/18"
+private_subnet_secondary = "100.0.0.0/18,100.0.64.0/18"
+public_secondary_az = "eu-west-2a,eu-west-2b"
+private_secondary_az = "eu-west-2a,eu-west-2b"
+global_product = "Clientelety-secondary"
+global_environment = "Dev"
