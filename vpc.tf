@@ -1,13 +1,13 @@
 module "vpc" {
     source = "git@github.com:bhargavimandala/terraform-aws-vpc-module.git?ref=v1.8"
-    cidr_block = "10.0.0.0/25"
+    cidr_block = "10.0.0.0/21"
     product = "clientelety"
     environment = "dev"
     terraform_repo = "https://github.com/bhargavimandala/terraform-aws-vpc-module.git"
     costcode = 111
-    publicsubnet_cidr = "10.0.0.64/27,10.0.0.96/27"
+    publicsubnet_cidr = "10.0.0.0/23,10.0.2.0/23"
     public_az = "eu-west-2a,eu-west-2b"
-    privatesubnet_cidr = "10.0.0.0/27,10.0.0.32/27"
+    privatesubnet_cidr = "10.0.4.0/23,10.0.6.0/23"
     private_az= "eu-west-2a,eu-west-2b"
 }
 

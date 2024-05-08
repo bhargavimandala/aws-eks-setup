@@ -1,8 +1,0 @@
-serverBlock: |-
-  server {
-    listen 0.0.0.0:8080;
-    location / {
-      default_type text/html;
-      return 200 "hello!\n";
-    }
-  }
